@@ -11,7 +11,7 @@ h1 {
     margin-right: 10%;
     margin-top: 15px;
     margin-bottom: 10px;
-    padding: 9px;
+    padding: 15px;
 }
 
 .second-sect {
@@ -27,7 +27,7 @@ h1 {
     margin-right: 10%;
     margin-top: 15px;
     margin-bottom: 10px;
-    padding: 0px;
+    padding: 15px;
 }
 
 .fourth-sect {
@@ -37,6 +37,19 @@ h1 {
     margin-bottom: 16px;
     padding: 15px;
 
+}
+
+.fifth-sect {
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 25px;
+    margin-bottom: 16px;
+    padding: 0px;
+
+}
+
+.border-image {
+    border-radius: 25px;
 }
 
 .flexible-container {
@@ -69,7 +82,7 @@ h1 {
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(rgb(236, 110, 37), tomato);
     color: white;
     padding: 5px 30px;
     border-radius: 3px;
@@ -122,4 +135,6 @@ footer {
     background-color: black;
     text-decoration: none;
     color: white;
+    justify-content: center;
+    padding: 5px;
 }
